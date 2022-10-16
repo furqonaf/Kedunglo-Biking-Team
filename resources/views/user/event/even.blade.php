@@ -1,4 +1,4 @@
-@extends('layoutuser/layout')
+@extends('user/layoutuser/layout')
 @section('isi')
 
     <!-- Page Heading -->

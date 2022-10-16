@@ -31,10 +31,12 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="mt-3 ml-4" href="/user">
+            <a class="ml-2 mr-2 mt-2" href="/user">
                 <div class="sidebar-brand-icon rotate-n-0">
-                <img src="img/logo/LOGO KBT.png" height="51.5" width="162.1" class="image">
-    
+                    <img src="img/logo/LOGO KBT.png" class="image" style="width: 100%;
+  max-width: 400px;
+  height: auto;">
+                </div>
             </a>
 
             <!-- Divider -->
@@ -121,7 +123,9 @@
             <!-- Sidebar Message -->
             <div class="sidebar-card">
                 <img class="sidebar-card-illustration">
-                <p class="text-center mt-1 mb-5"><strong>30 Km setiap minggu</strong> hendaknya Medallers sempurnakan capaian dengan niat beribadah medal "Nderek tuntunan Pengasuh Perjuangan Wahidiyah dan Pondok Pesantren Kedunglo"</p>
+                <p class="text-center mt-1 mb-5"><strong>30 Km setiap minggu</strong> hendaknya Medallers sempurnakan
+                    capaian dengan niat beribadah medal "Nderek tuntunan Pengasuh Perjuangan Wahidiyah dan Pondok
+                    Pesantren Kedunglo"</p>
             </div>
 
         </ul>
@@ -204,9 +208,10 @@
                                     </div>
                                     <div>
                                         <div class="small text-gray-500">December 12, 2020</div>
-                                        <span class="font-weight-bold">KBT Medal Mujahadah Rubuussanah kabupaten Sidoarjo</span>
+                                        <span class="font-weight-bold">KBT Medal Mujahadah Rubuussanah kabupaten
+                                            Sidoarjo</span>
                                     </div>
-                                </a>                                
+                                </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-green">
@@ -215,10 +220,12 @@
                                     </div>
                                     <div>
                                         <div class="small text-gray-500">December 12, 2020</div>
-                                        <span class="font-weight-bold">KBT Medal Mujahadah Rubuussanah kabupaten Gresik</span>
+                                        <span class="font-weight-bold">KBT Medal Mujahadah Rubuussanah kabupaten
+                                            Gresik</span>
                                     </div>
                                 </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Tampilkan Semua Pemberitahuan</a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Tampilkan Semua
+                                    Pemberitahuan</a>
                             </div>
                         </li>
 
@@ -238,23 +245,23 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image">
-                                        <img class="rounded-circle" src="img/logo/icon admin.png"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/logo/icon admin.png" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">Assalamualaikum Wr.Wr. Anda belum melakukan Medal sejauh 30 Km Minggu ini, segera yaa....</div>
+                                        <div class="text-truncate">Assalamualaikum Wr.Wr. Anda belum melakukan Medal
+                                            sejauh 30 Km Minggu ini, segera yaa....</div>
                                         <div class="small text-gray-500">Admin · 58m</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image">
-                                        <img class="rounded-circle" src="img/logo/icon admin.png"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/logo/icon admin.png" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">Assalamualaikum Wr.Wr. Anda belum melakukan Medal sejauh 30 Km Minggu ini, segera yaa....</div>
+                                        <div class="text-truncate">Assalamualaikum Wr.Wr. Anda belum melakukan Medal
+                                            sejauh 30 Km Minggu ini, segera yaa....</div>
                                         <div class="small text-gray-500">Admin · 58m</div>
                                     </div>
                                 </a>
@@ -269,8 +276,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nama Medallers 1</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/logo/icon profil.png">
+                                <img class="img-profile rounded-circle" src="img/logo/icon profil.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -300,8 +306,8 @@
                 </nav>
                 <!-- End of Topbar -->
                 <div class="container-fluid">
-@yield('isi')
-</div>
+                    @yield('isi')
+                </div>
             </div>
             <!-- End of Main Content -->
 
@@ -357,26 +363,17 @@
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 

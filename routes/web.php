@@ -13,18 +13,39 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admin', function () {
-    return view('index2');
-});
-// halaman user
+// halaman beranda user
 Route::get('/user', function () {
     return view('beranda');
 });
-// halaman user
-Route::get('/event', function () {
+// halaman even user
+Route::get('user-event', function () {
     return view('event/even');
 });
-// halaman user
-Route::get('/detail-even', function () {
-    return view('event/detail');
+// halaman detail even user
+Route::get('/user-detail-even', function () {
+    return view('event/detail-even');
+});
+// halaman detail profil user
+Route::get('/user-profil', function () {
+    return view('Profil/user-detail-profil');
+});
+// halaman sunting profil user
+Route::get('/sunting-user-profil', function () {
+    return view('Profil/sunting-user-profil');
+});
+// halaman user leaderboard 
+Route::get('/user-leaderboard', function () {
+    return view('user-leaderboard/user-leaderboard');
+});
+// halaman user layanan komplain
+Route::get('/user-layanankomplain', function () {
+    return view('user-leaderboard/user-layanankomplain');
+});
+// halaman user capaian leaderboard 
+Route::get('/capaianleaderboard-user', function () {
+    return view('user-capaian/capaianleaderboard-user');
+});
+// halaman user capaian leaderboard 
+Route::get('/capaianeven-user', function () {
+    return view('user-capaian/capaianeven-user');
 });

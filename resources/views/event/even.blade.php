@@ -29,7 +29,7 @@
             </tr>
         </thead>
         </table>
-        <a href="/detail-even">Lihat Selengkapnya</a>
+        <a href="/user-detail-even">Lihat Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
             </tr>
         </thead>
         </table>
-        <a href="/detail-even">Lihat Selengkapnya</a>
+        <a href="/user-detail-even">Lihat Selengkapnya</a>
                 </div>
             </div>
         </div>

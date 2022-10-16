@@ -1,4 +1,4 @@
-@extends('user/layoutuser/layout')
+@extends('admin/layoutadmin/layout')
 @section('isi')
 <div class="main-body">
 
@@ -168,4 +168,6 @@
     </div>
   </div>
 </div>
+
+
 @endsection

@@ -30,10 +30,23 @@ Route::get('/admin-event', function () {
 Route::get('/admin-detail', function () {
     return view('admin/event/detail');
 });
-
+// bio-admin
 Route::get('/admin-profil', function(){
     return view('admin/profil/index');
 });
+Route::get('/admin-profil-edit', function(){
+    return view('admin/profil/edit');
+});
+
+// foto
+Route::get('/admin-foto', function(){
+    return view('admin/dok/foto/index');
+});
+
+Route::get('/admin-video', function(){
+    return view('admin/dok/video/index');
+});
+
 
 // biodata user
 Route::get('/admin-bio-user', function(){

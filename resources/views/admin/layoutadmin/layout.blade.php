@@ -98,10 +98,10 @@
                 <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Juara</a>
-                        <a class="collapse-item" href="cards.html">Rekap Total</a>
-                        <a class="collapse-item" href="cards.html">Point</a>
-                        <a class="collapse-item" href="cards.html">Warning</a>
+                        <a class="collapse-item" href="/admin-juara">Juara</a>
+                        <a class="collapse-item" href="/admin-rekap">Rekap Total</a>
+                        <a class="collapse-item" href="/admin-point">Point</a>
+                        <a class="collapse-item" href="/admin-warn">Warning</a>
                     </div>
                 </div>
             </li>

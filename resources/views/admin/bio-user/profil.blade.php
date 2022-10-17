@@ -1,11 +1,12 @@
 @extends('admin/layoutadmin/layout')
 @section('isi')
+
 <section style="background-color: #eee;">
   <!-- Breadcrumb -->
   <nav aria-label="breadcrumb" class="main-breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="/user-profil">Profil</a></li>
-      <li class="breadcrumb-item"><a>Medallers</a></li>
+      <li class="breadcrumb-item"><a>User</a></li>
     </ol>
   </nav>
   <!-- /Breadcrumb -->
@@ -60,6 +61,9 @@
             <span class="text-secondary">Medallers 1</span>
           </li>
         </ul>
+      </div>
+      <div>
+        <a href="/admin-user-profil-edit" class="btn btn-primary mt-3">Edit Profil</a>
       </div>
     </div>
     <div class="col-md-8">
@@ -165,4 +169,5 @@
     </div>
   </div>
 </section>
+
 @endsection

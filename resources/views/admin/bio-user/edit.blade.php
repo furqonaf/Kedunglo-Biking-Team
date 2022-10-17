@@ -5,8 +5,8 @@
   <!-- Breadcrumb -->
   <nav aria-label="breadcrumb" class="main-breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/admin-profil">Profil</a></li>
-      <li class="breadcrumb-item"><a>Admin</a></li>
+      <li class="breadcrumb-item"><a href="/admin-user-profil">Profil</a></li>
+      <li class="breadcrumb-item"><a>User</a></li>
     </ol>
   </nav>
   <!-- /Breadcrumb -->

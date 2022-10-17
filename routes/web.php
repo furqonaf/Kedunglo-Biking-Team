@@ -55,6 +55,9 @@ Route::get('/admin-bio-user', function(){
 Route::get('/admin-user-profil', function(){
     return view('admin/bio-user/profil');
 });
+Route::get('/admin-user-profil-edit', function(){
+    return view('admin/bio-user/edit');
+});
 
 
 

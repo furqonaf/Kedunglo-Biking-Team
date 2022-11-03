@@ -67,9 +67,9 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
+                        <h6 class="collapse-header">Even Medal</h6>
                         <a class="collapse-item" href="/admin-event">Event</a>
-                        <a class="collapse-item" href="cards.html">Tambah</a>
+                        <a class="collapse-item" href="/admin-tambah">Tambah Even Baru</a>
                     </div>
                 </div>
             </li>
@@ -82,9 +82,24 @@
                 </a>
                 <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="/admin-bio-user">User</a>
+                        <h6 class="collapse-header">Medallers</h6>
+                        <a class="collapse-item" href="/admin-bio-user">Daftar Medallers</a>
                         <a class="collapse-item" href="cards.html">Tambah</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-globe"></i>
+                    <span>Wilayah Kerja KBT</span>
+                </a>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Sebaran Medallers</h6>
+                        <a class="collapse-item" href="/adminwilayah">Sebaran Wilayah</a>
+                        <a class="collapse-item" href="/adminadministrasi">Administrasi</a>
                     </div>
                 </div>
             </li>
@@ -97,11 +112,11 @@
                 </a>
                 <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="/admin-juara">Juara</a>
-                        <a class="collapse-item" href="/admin-rekap">Rekap Total</a>
-                        <a class="collapse-item" href="/admin-point">Point</a>
-                        <a class="collapse-item" href="/admin-warn">Warning</a>
+                        <h6 class="collapse-header">KBT Leaderboard</h6>
+                        <a class="collapse-item" href="/admin-leaderboard-juara">Juara</a>
+                        <a class="collapse-item" href="/admin-leaderboard-rekap">Rekap Total</a>
+                        <a class="collapse-item" href="/admin-leaderboard-point">Point</a>
+                        <a class="collapse-item" href="/admin-leaderboard-warn">Warning</a>
                     </div>
                 </div>
             </li>

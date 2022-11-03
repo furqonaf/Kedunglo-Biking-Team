@@ -30,6 +30,10 @@ Route::get('/admin-event', function () {
 Route::get('/admin-detail', function () {
     return view('admin/event/detail');
 });
+Route::get('/admin-tambah', function () {
+    return view('admin/event/tambah');
+});
+
 // bio-admin
 Route::get('/admin-profil', function(){
     return view('admin/profil/index');
@@ -59,7 +63,27 @@ Route::get('/admin-user-profil-edit', function(){
     return view('admin/bio-user/edit');
 });
 
+// Halaman Leaderboard
+Route::get('/admin-leaderboard-juara', function(){
+    return view('admin/leaderboard/admin-leaderboard-juara');
+});
+Route::get('/admin-leaderboard-rekap', function(){
+    return view('admin/leaderboard/admin-leaderboard-rekap');
+});
+Route::get('/admin-leaderboard-point', function(){
+    return view('admin/leaderboard/admin-leaderboard-point');
+});
+Route::get('/admin-leaderboard-warn', function(){
+    return view('admin/leaderboard/admin-leaderboard-warn');
+});
 
+//Halaman Wilayah Kerja KBT
+Route::get('/adminwilayah', function(){
+    return view('admin/wilayah/adminwilayah');
+});
+Route::get('/adminadministrasi', function(){
+    return view('admin/wilayah/adminadministrasi');
+});
 
 
 

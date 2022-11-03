@@ -21,7 +21,7 @@
                                             <div class="h5 mb-10 font-weight-bold text-gray-800">Peserta</div>
                                             </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-bicycle"></i>
+                                        <i class="fas fa-trophy fa-5x" style="color:silver"></i>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                             <div class="h5 mb-10 font-weight-bold text-gray-800">Teknisi</div>
                                             </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-truck"></i>
+                                        <i class="fas fa-truck fa-5x" style="color:silver"></i>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                                             <div class="h5 mb-10 font-weight-bold text-gray-800">Fotografer</div>
                                             </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-camera"></i>
+                                        <i class="fas fa-camera fa-5x" style="color:silver"></i>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                             <div class="h5 mb-10 font-weight-bold text-gray-800">Support</div>
                                             </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-utensils"></i>
+                                        <i class="fas fa-utensils fa-5x" style="color:silver"></i>
                                     </div>
                                 </div>
                             </div>
